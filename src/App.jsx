@@ -14,11 +14,11 @@ function App() {
   return (
     <main className="relative">
       <Nav />
-      <section className="xl:padding-1 wide:padding-r padding-b ">
+      <section className="xl:padding-1 wide:padding-r  bg-light-orange">
         <Hero />
       </section>
       <section className="padding">
-        <PopularProduct />{" "}
+        <PopularProduct />
       </section>
       <section className="padding">
         <Quality />

@@ -22,6 +22,7 @@ export default {
         primary: "#ECEEFF",
         "bright-yellow": "#F9CF07",
         "bright-orange": "#FE7A25",
+        "light-orange": "#F5EEE6",
         "slate-gray": "#6D6D6D",
         "pale-blue": "#F5F6FF",
         "white-400": "rgba(255, 255, 255, 0.80)",
