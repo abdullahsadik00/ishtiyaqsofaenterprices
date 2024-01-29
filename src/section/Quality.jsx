@@ -1,9 +1,10 @@
 import React from "react";
 import { chair1 } from "../assets/images";
+import Button from "../components/Button";
 
 const Quality = () => {
   return (
-    <section className="flex justify-between items-center  gap-10 w-full max-container">
+    <section className="flex xl:flex-row flex-col justify-between items-center  gap-10 w-full max-container">
       <div className="flex flex-1 flex-col">
         <h2 className="text-4xl font-palanquin capitalize font-bold">
           We provide you with best
@@ -18,9 +19,7 @@ const Quality = () => {
           Our dedication to detail and excellence ensures your satisfaction
         </p>
         <div className="mt-6">
-          <button className="font-montserat  text-lg text-white bg-bright-orange px-5 py-3 leading-none rounded-full">
-            View Details
-          </button>
+          <Button>View Details</Button>
         </div>
       </div>
       <div className="flex-1 flex justify-center items-center">

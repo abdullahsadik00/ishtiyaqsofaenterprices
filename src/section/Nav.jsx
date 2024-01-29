@@ -2,6 +2,7 @@ import React from "react";
 import { navLinks } from "../constant";
 import { hamburger } from "../assets/icons";
 import { headerLogo } from "../assets/images";
+import Button from "../components/Button";
 
 const Nav = () => {
   console.log(navLinks);
@@ -24,9 +25,7 @@ const Nav = () => {
           ))}
         </ul>
         <div>
-          <button className="font-montserat  text-lg text-white bg-bright-orange px-5 py-3 leading-none rounded-full">
-            Sign up
-          </button>
+          <Button> Sign up</Button>
         </div>
         <div className="hidden max-lg:block">
           <img src={hamburger} alt="hamburger" width={25} height={25} />

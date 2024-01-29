@@ -8,13 +8,14 @@ import Offer from "./section/Offer";
 import Review from "./section/Review";
 import Subscribe from "./section/Subscribe";
 import Footer from "./section/Footer";
+import ProductPage from "./section/ProductPage";
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <main className="relative">
       <Nav />
-      <section className="xl:padding-1 wide:padding-r  bg-light-orange">
+      <section className="padding-l padding-r  bg-light-orange">
         <Hero />
       </section>
       <section className="padding">
@@ -37,6 +38,9 @@ function App() {
       </section>
       <section className="padding-x padding-t pb-8 bg-black">
         <Footer />
+      </section>
+      <section className="padding">
+        <ProductPage />
       </section>
     </main>
   );

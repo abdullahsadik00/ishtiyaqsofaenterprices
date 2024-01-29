@@ -1,5 +1,5 @@
 import React from "react";
-import { products } from "../constant";
+import { products, products1 } from "../constant";
 import ProductCard from "../components/ProductCard";
 
 const PopularProduct = () => {
@@ -14,12 +14,14 @@ const PopularProduct = () => {
           Experience top-notch quality and style with our sought-after
           selections. Discover a world of comfort, design, and value
         </p>
+
         <div className="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-col-4">
-          {products.map((product) => (
+          {products1.map((product) => (
             <ProductCard
               imgURL={product.imgURL}
               name={product.name}
               price={product.price}
+              imgArray={product.img}
             />
           ))}
         </div>

@@ -16,9 +16,19 @@ import {
   shoe5,
   shoe6,
   shoe7,
-  thumbnailShoe1,
-  thumbnailShoe2,
-  thumbnailShoe3,
+  sofaChair01,
+  sofaChair1,
+  sofaChair2,
+  sofaChair3,
+  sofabed1,
+  sofabed10,
+  sofabed2,
+  sofabed3,
+  sofabed4,
+  sofabed6,
+  sofabed7,
+  sofabed8,
+  sofabed9,
 } from "../assets/images";
 
 export const navLinks = [
@@ -28,25 +38,63 @@ export const navLinks = [
   { href: "#contact-us", label: "Contact Us" },
 ];
 
-export const shoes = [
+// export const shoes = [
+//   {
+//     thumbnail: thumbnailShoe1,
+//     bigShoe: bigShoe1,
+//   },
+//   {
+//     thumbnail: thumbnailShoe2,
+//     bigShoe: bigShoe2,
+//   },
+//   {
+//     thumbnail: thumbnailShoe3,
+//     bigShoe: bigShoe3,
+//   },
+// ];
+export const sofaChair = [
   {
-    thumbnail: thumbnailShoe1,
-    bigShoe: bigShoe1,
+    thumbnail: sofaChair1,
   },
   {
-    thumbnail: thumbnailShoe2,
-    bigShoe: bigShoe2,
+    thumbnail: sofaChair2,
   },
   {
-    thumbnail: thumbnailShoe3,
-    bigShoe: bigShoe3,
+    thumbnail: sofaChair3,
   },
 ];
 
 export const statistics = [
-  { value: "1k+", label: "Brands" },
+  { value: "1k+", label: "Happy Customer" },
   { value: "500+", label: "Shops" },
-  { value: "250k+", label: "Customers" },
+  // { value: "250k+", label: "Customers" },
+];
+
+export const products1 = [
+  {
+    imgURL: shoe4,
+    name: "Nike Air Jordan-01",
+    price: "$200.20",
+    img: [shoe4, shoe5, shoe6, shoe7],
+  },
+  {
+    imgURL: sofaChair01,
+    name: "Sofa Chair",
+    price: "$200.20",
+    img: [""],
+  },
+  {
+    imgURL: sofabed1,
+    name: "Sofa Bed",
+    price: "$200.20",
+    img: [sofabed1, sofabed2, sofabed3, sofabed4],
+  },
+  {
+    imgURL: sofabed6,
+    name: "Sofa Bed",
+    price: "$200.20",
+    img: [sofabed7, sofabed8, sofabed9, sofabed10],
+  },
 ];
 
 export const products = [
@@ -102,6 +150,13 @@ export const reviews = [
   {
     imgURL: customer2,
     customerName: "Lota Mongeskar",
+    rating: 4.5,
+    feedback:
+      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+  },
+  {
+    imgURL: customer2,
+    customerName: "Sadik Shaikh",
     rating: 4.5,
     feedback:
       "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
